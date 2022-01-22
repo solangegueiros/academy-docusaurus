@@ -205,5 +205,8 @@
   "theme.tags.tagsPageTitle": {
     "message": "Marcadores",
     "description": "The title of the tag list page"
+  },
+  "Blockchain developer": {
+    "message": "Blockchain developer"
   }
 }

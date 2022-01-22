@@ -17,10 +17,18 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/docs/tutorial/intro">
             <Translate>Docusaurus Tutorial - 5min ⏱️</Translate>            
           </Link>
         </div>
+        <br/>
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/developer/intro">
+            <Translate>Blockchain developer</Translate>            
+          </Link>
+        </div>        
       </div>
     </header>
   );

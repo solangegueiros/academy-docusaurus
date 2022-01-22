@@ -6,19 +6,19 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'http://solangegueiros.com',
+  title: 'Academy',
+  tagline: 'Developers are cool',
+  url: 'http://solange.net.br',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'academy', // Usually your GitHub org/user name.
+  projectName: 'academy', // Usually your repo name.
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'pt-br'],
+    locales: ['en', 'es', 'pt-br'],
   },
 
   presets: [
@@ -56,10 +56,16 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'courses',
+            position: 'left',
+            label: 'Courses',
+          },
+          {
+            type: 'doc',
+            docId: 'tutorial/intro',
             position: 'left',
             label: 'Tutorial',
-          },
+          },          
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',

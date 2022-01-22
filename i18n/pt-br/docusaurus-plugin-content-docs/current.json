@@ -10,5 +10,21 @@
   "sidebar.tutorialSidebar.category.Tutorial - Extras": {
     "message": "Tutorial - extras",
     "description": "The label for category Tutorial - Extras in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.tutorial": {
+    "message": "tutorial",
+    "description": "The label for category tutorial in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.developer": {
+    "message": "developer",
+    "description": "The label for category developer in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.wallets": {
+    "message": "wallets",
+    "description": "The label for category wallets in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.wallets-intro": {
+    "message": "wallets-intro",
+    "description": "The label for category wallets-intro in sidebar tutorialSidebar"
   }
 }
